@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6", 
+    "module": "es6", // Passer à ES6 modules pour être cohérent avec 'type': 'module' dans package.json
+    "rootDir": "./", 
+    "outDir": "./dist", 
+    "strict": true, 
+    "esModuleInterop": true,
+    "moduleResolution": "node", // Ajoutez cette option pour la résolution des modules
+    "resolveJsonModule": true
+  },
+  "include": ["**/*.ts"], // Inclure tous les fichiers TypeScript
+  "exclude": ["node_modules"] 
+}

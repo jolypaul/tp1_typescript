@@ -1,0 +1,22 @@
+{
+  "name": "premier-projet-typescript",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jsdom": "^25.0.1"
+  },
+  "description": ""
+}
